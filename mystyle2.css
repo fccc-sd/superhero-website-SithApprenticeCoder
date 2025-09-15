@@ -1,0 +1,70 @@
+header {
+    color:rgb(121, 23, 23);
+    text-align: center;
+    font: italic 1.25em Arial, Helvetica, sans-serif
+}
+
+h2 {
+    color: rgb(241, 29, 29);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: silver;
+}
+
+body {
+    background-color: black;
+    font-size: 1.10em;
+    font-weight: normal;
+}
+
+ul
+{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+nav
+{
+    background-color:bisque;
+    line-height: 2em;
+    display: block;
+}
+
+nav li
+{
+    display: inline;
+    padding-right: 5vw;
+    list-style-type: none;
+}
+
+nav a:link
+{
+    color:rgb(17, 17, 138);
+    text-decoration: none;
+}
+
+nav a:visited
+{
+    color:rgb(17, 17, 138);
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
+
+nav a:active
+{
+    color: purple;
+    text-decoration: underline;
+}
+
+strong {
+    color:darkslateblue;
+}
+
+h3 {
+    color:rgb(241, 29, 29);
+}
