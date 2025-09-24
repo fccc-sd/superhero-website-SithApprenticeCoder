@@ -82,14 +82,14 @@ h3
 em 
 {
     color: yellow;
+    float: middle;
 }
 
 img 
 {
     padding: 10, 5;
     border: solid darkred;
-    margin: 10px;
-    clear: both;
+    vertical-align: middle;
 }
 
 .important
@@ -97,3 +97,9 @@ img
     color: darkred;
     font-style: italic;
 }
+
+footer 
+{
+    color:chocolate;
+}
+
