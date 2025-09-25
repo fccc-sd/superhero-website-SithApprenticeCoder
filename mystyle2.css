@@ -82,14 +82,15 @@ h3
 em 
 {
     color: yellow;
-    float: middle;
 }
 
 img 
 {
     padding: 10, 5;
     border: solid darkred;
-    vertical-align: middle;
+    float: left;
+    margin-right: 100px;
+    clear: right;
 }
 
 .important
