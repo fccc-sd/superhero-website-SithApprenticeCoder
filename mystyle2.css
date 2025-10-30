@@ -1,0 +1,106 @@
+header 
+{
+    color: rgb(118, 8, 8);
+    text-align: center;
+    font: italic 1.25em Arial, Helvetica, sans-serif
+}
+
+h2 
+{
+    color: rgb(118, 8, 8);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p 
+{
+    color:orange;
+    margin: 10px;
+    padding: 5px;
+}
+
+body 
+{
+    background-image: url(images/space.cool.png);
+    background-attachment: fixed;
+    background-color: black;
+    font-size: 1.10em;
+    font-weight: normal;
+}
+
+ul
+{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+nav
+{
+    background-color:bisque;
+    line-height: 2em;
+    display: block;
+}
+
+nav li
+{
+    display: inline;
+    padding-right: 5vw;
+    list-style-type: none;
+}
+
+nav a:link
+{
+    color:rgb(17, 17, 138);
+    text-decoration: none;
+}
+
+nav a:visited
+{
+    color:rgb(17, 17, 138);
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
+
+nav a:active
+{
+    color: purple;
+    text-decoration: underline;
+}
+
+strong 
+{
+    color:orangered;
+}
+
+h3 
+{
+    color:rgb(118, 8, 8);
+}
+
+em 
+{
+    color: yellow;
+}
+
+img 
+{
+    padding: 10, 5;
+    border: solid darkred;
+    float: left;
+    margin-right: 100px;
+    clear: right;
+}
+
+.important
+{
+    color: darkred;
+    font-style: italic;
+}
+
+footer 
+{
+    color:chocolate;
+}
+
