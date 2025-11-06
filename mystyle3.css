@@ -28,6 +28,12 @@ header
     text-align: center;
 }
 
+ul
+{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
 nav
 {
     width: 940px;
@@ -41,6 +47,28 @@ nav li
     display: inline;
     list-style-type: none;
     padding-right: 5vw;
+}
+
+nav a:link
+{
+    color:rgb(17, 17, 138);
+    text-decoration: none;
+}
+
+nav a:visited
+{
+    color:rgb(17, 17, 138);
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
+
+nav a:active
+{
+    color: purple;
+    text-decoration: underline;
 }
 
 aside
