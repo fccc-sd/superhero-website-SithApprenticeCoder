@@ -31,17 +31,18 @@ header
 
 main
 {
-    width: 59.375%;
+    width: 89.375%;
     padding: 15px 1.5625%;
     float: left;
 }
 
 aside
 {
-    width: 34.375%;
+    width: 50.375%;
     padding: 15px 1.5625%;
     float: left;
-    color: white;
+    color: purple;
+    background-color: bisque;
 }
 
 footer
@@ -50,22 +51,25 @@ footer
     width: 96.875%;
     padding: 15px 1.5625%;
     border-top: 2px solid black;
-    color: white;
+    color: chocolate;
+    background-color: darkblue;
 }
 
 aside img
 {
-    width: 100%;
+    width: 50%;
     max-width: 960px;
     margin-bottom: .5em;
 }
 
 section
 {
-    width: 100%;
+    width: 40%;
     margin: 0px auto;
     padding: 10px 1.042%;
-    color: white;
+    color: purple;
+    background-color: bisque;
+    float: right;
 }
 
 #mobile_menu {display: none;}
@@ -87,16 +91,17 @@ ul
     list-style-position: inside;
 }
 
-h4
-{
-    padding: 15px 1.5625%;
-    color: darkred;
-}
-
 nav
 {
     width: 97.92%;
     padding: 10px 1.042%;
     margin-bottom: 10px 1.042%;
     border: 2px solid black;
+}
+
+#container
+{
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
 }
