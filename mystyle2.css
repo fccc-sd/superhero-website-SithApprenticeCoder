@@ -22,9 +22,9 @@ body
 {
     background-image: url(images/space.cool.png);
     background-attachment: fixed;
-    background-color: black;
     font-size: 1.10em;
     font-weight: normal;
+    color:orange;
 }
 
 ul
@@ -104,3 +104,20 @@ footer
     color:chocolate;
 }
 
+table
+{
+    border: solid 2px white;
+    border-collapse: collapse;
+}
+
+tr, td, th
+{
+    border: solid 2px white;
+    padding: 5px;
+}
+
+caption
+{
+    caption-side: top;
+    font-weight: bold;
+}
