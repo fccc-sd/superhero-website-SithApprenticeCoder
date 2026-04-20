@@ -1,0 +1,102 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-color: black;
+}
+
+#container
+{
+    width: 960px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+header
+{
+    height: 50px;
+    width: 910px;
+    padding: 25px;
+    background-color: darkslateblue;
+    color: darkgrey;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+ul
+{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+nav
+{
+    width: 940px;
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+nav li
+{
+    display: inline;
+    list-style-type: none;
+    padding-right: 5vw;
+}
+
+nav a:link
+{
+    color:rgb(17, 17, 138);
+    text-decoration: none;
+}
+
+nav a:visited
+{
+    color:rgb(17, 17, 138);
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
+
+nav a:active
+{
+    color: purple;
+    text-decoration: underline;
+}
+
+aside
+{
+    width: 250px;
+    height: 500px;
+    margin: 0px 10px 10px 0px;
+    padding: 10px;
+    background-color: burlywood;
+    color: purple;
+    float: left;
+}
+
+section
+{
+    width: 660px;
+    height: 500px;
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+    background-color: burlywood;
+    color: purple;
+    float: right;
+}
+
+footer
+{
+    background-color: black;
+    color: red;
+    padding: 10px;
+    clear: both;
+}

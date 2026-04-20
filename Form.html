@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Form</title>
+
+    <link href="mystyle2.css" rel="stylesheet">
+</head>
+
+<header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" title="Intro to Anakin">Intro to Anakin</a></li>
+            <li><a href="bio.html" title="About Anakin">About Anakin</a></li>
+            <li><a href="powers.html" title="About Anakin's Powers">About Anakin's Powers</a></li>
+            <li><a href="gallery.html" title="Some Pictures of Anakin">Some Pictures of Anakin</a></li>
+            <li><a href="tablepage.html" title="A table Page">Table</a></li>
+            <li><a href="Form.html" title="A form">Form</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <form id="pizza_form" action="my_app.php" method="post">
+        <p><strong>Enter your name</strong></p>
+        <p><input type="text" name="name" id="name"></p><br>
+        <p><strong>Enter your address</strong></p>
+        <p><input type="text" name="address" id="address"></p><br>
+        <p><strong>Enter your phone number</strong></p>
+        <p><input type="text" name="number" id="number"></p><br>
+        <p><strong>Select the size of pizza</strong></p>
+        <label for="size 1">Small</label>
+        <input type="radio" name="sizes" id="sizes" value="size"><br><br>
+        <label for="size 2">Medium</label>
+        <input type="radio" name="sizes" id="sizes" value="size"><br><br>
+        <label for="size 3">Large</label>
+        <input type="radio" name="sizes" id="sizes" value="size"><br><br>
+        <p><strong>Select the toppings</strong></p>
+        <label for="topping 1">Pepperoni</label>
+        <input type="checkbox" name="topping" id="topping" value="topping"><br><br>
+        <label for="topping 2">Bacon</label>
+        <input type="checkbox" name="topping" id="topping" value="topping"><br><br>
+        <label for="topping 3">Sausage</label>
+        <input type="checkbox" name="topping" id="topping" value="topping"><br><br>
+        <label for="topping 4">Green Peppers</label>
+        <input type="checkbox" name="topping" id="topping" value="topping"><br><br>
+        <label for="topping 5">Ham</label>
+        <input type="checkbox" name="topping" id="topping" value="topping"><br><br>
+        <label for="topping 6">Pinapple</label>
+        <input type="checkbox" name="topping" id="topping" value="topping"><br><br>
+        <label for="topping 7">Mushrooms</label>
+        <input type="checkbox" name="topping" id="topping" value="topping"><br><br>
+        <p><strong>Notes</strong></p>
+        <input type="text" name="comments" id="comments" autofocus><br><br>
+        <input id="submit" type="submit" value="Send"> <input id="reset" type="reset" value="Reset">
+    </form>
+</body>
+
+
+</html>
